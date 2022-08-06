@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: darkgray;
+    font: 16px Arial;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    color: crimson;
+}
+
+.search-bar{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 50px;
+    width: 10%;
+}
+
+#input{
+    position: absolute;
+    left: 40%;
+}
+
+#btn{
+    position: absolute;
+    left: 55%;
+}
+
+#para{
+    display: flex;
+}
+
+* {box-sizing: border-box;}
+
+.autocomplete{
+    position: relative;
+    display: inline-block;
+}
+
+input{
+    border: 1px solid transparent;
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-size: 16px;
+}
+
+input[type=text]{
+    background-color: #f1f1f1;
+    width: 100%;
+}
+
+input[type=submit]{
+    background-color: lightskyblue;
+    color: #fff;
+}
+
+.autocomplete-items{
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    top: 100%;
+    left: 0;
+    right: 0;
+}
+
+.autocomplete-items div{
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.autocomplete-items div:hover{
+    background-color: #e9e9e9;
+}
+
+.autocomplete-active{
+    background-color: dodgerblue !important;
+    color: #ffffff;
+}
+
+#fav-movie{
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: mediumpurple;
+}
+
+#fav-movie a{
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: black;
+}
+
+#fav-movie a:hover{
+    color: brown;
+}
+
+.dis{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cen{
+    position: absolute;
+    left: 30%;
+}
