@@ -25,8 +25,8 @@ function renderMovie() {
         <p class="card-text">Plot: ${plot}</p>
       </div>
       <ul class="list-group list-group-flush">
-        <li class="list-group-item">ImdbRtaing: ${imdb}</li>
-        <li class="list-group-item">Year of release: ${released}</li>
+        <li class="list-group-item">Rtaing: ${imdb}</li>
+        <li class="list-group-item">Release Date: ${released}</li>
       </ul>
       
     </div>

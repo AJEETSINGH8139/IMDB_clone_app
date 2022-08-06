@@ -1,4 +1,5 @@
 let favm = document.getElementById("fav_movie");
+
 // Use of this function when user click on favourite button and we will fetch favmovie by id saved in local storage and display it.
 function renderMovie() {
   let movieList = document.querySelector("#fav_movie");
@@ -20,10 +21,11 @@ function renderMovie() {
     <div class="card-body">
     <h5 class="card-title">${avatar}</h5>
     <img src="${imgsrc}">
-    <button class="btn btn-primary" id="unfav">Unfavourite</button>
+    <button class="btn btn-dark" id="unfav">Remove</button>
   </div>
   </li>
   <ul>`;
+
 // Use of this function for removing the movie from the favourite list
       let Unfavouritelist = document.querySelectorAll("#unfav");
       Unfavouritelist.forEach((unfav) => {

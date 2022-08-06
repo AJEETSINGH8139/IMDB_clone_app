@@ -45,10 +45,10 @@ search.addEventListener("input", (e) => {
           <div class="card-body">
         <h5 class="card-title">${avatar}</h5>
         <img src="${imgsrc}">
-        <button class="btn btn-primary" id="${results.length - 1}" name=${JSON.stringify(
+        <button class="btn btn-dark" id="${results.length - 1}" name=${JSON.stringify(
       data
     )} onclick="favMovie(event)">Favourite</button>
-        <button class="btn btn-primary" id="${
+        <button class="btn btn-dark" id="${
           results.length - 1
         }" onclick=movieDetails(event)>Details</button>
       </div>`;

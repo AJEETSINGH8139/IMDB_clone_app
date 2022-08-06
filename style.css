@@ -2,7 +2,7 @@ html,body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color:darkcyan;
+    background-color:lightgray;
 }
 
 /* for heading part  */
@@ -20,7 +20,6 @@ h1{
     margin-bottom: 10px;
     height: 50px;
     width: 100%;
-   
 }
 
 #input{
@@ -64,7 +63,7 @@ input[type=text] {
 }
 
 input[type=submit] {
-  background-color: DodgerBlue;
+  background-color: lightcyan;
   color: #fff;
 }
 
@@ -94,7 +93,7 @@ input[type=submit] {
 
 /*when navigating through the items using the arrow keys:*/
 .autocomplete-active {
-  background-color: DodgerBlue !important;
+  background-color: lightcyan !important;
   color: #ffffff;
 }
 
@@ -104,17 +103,17 @@ input[type=submit] {
   top: 10%;
   border: 2px solid grey;
   border-radius: 10px;
-  background-color: mediumpurple;
+  background-color: rgb(72, 74, 5);
 }
 
 #fav-movie a{
   text-decoration: none;
   font-size: 1.8rem;
-  color: black;
+  color: whitesmoke;
 }
 
 #fav-movie a:hover{
-  color: brown;
+  color: rgb(132, 223, 136);
 }
 
 .dis{
