@@ -1,5 +1,6 @@
 let favm = document.getElementById("movie-detail");
-// here we will write function when user click on detail button and we will fetch current movie saved in local storage and display it.
+
+// When user click on detail button and we will fetch current movie saved in local storage and display it.
 function renderMovie() {
   let movieList = document.querySelector("#movie-detail");
   if (movieList) movieList.innerHTML = "";
@@ -8,8 +9,8 @@ function renderMovie() {
   let savedMovie = JSON.parse(favmovie);
   if (savedMovie == null) {
     favmovie = [];
-  } else {
-    
+  }
+   else {
       const avatar = savedMovie.Title;
       const imgsrc = savedMovie.Poster;
       const plot = savedMovie.Plot;
@@ -26,15 +27,10 @@ function renderMovie() {
       <ul class="list-group list-group-flush">
         <li class="list-group-item">ImdbRtaing: ${imdb}</li>
         <li class="list-group-item">Year of release: ${released}</li>
-       
       </ul>
       
     </div>
-    </div>`;
-
-      
-      
-    
+    </div>`; 
   }
 }
 renderMovie();

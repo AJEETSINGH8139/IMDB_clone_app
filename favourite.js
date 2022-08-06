@@ -1,5 +1,5 @@
 let favm = document.getElementById("fav_movie");
-// here we will write function when user click on favourite button and we will fetch favmovie by id saved in local storage and display it.
+// Use of this function when user click on favourite button and we will fetch favmovie by id saved in local storage and display it.
 function renderMovie() {
   let movieList = document.querySelector("#fav_movie");
   if (movieList) movieList.innerHTML = "";
@@ -13,6 +13,7 @@ function renderMovie() {
       const avatar = el.Title;
       const imgsrc = el.Poster;
 
+      // for showing list of favourite movie
       favm.innerHTML += ` 
    <ul>
     <li>
@@ -23,7 +24,7 @@ function renderMovie() {
   </div>
   </li>
   <ul>`;
-// here is the function for removing the movie from the favourite list
+// Use of this function for removing the movie from the favourite list
       let Unfavouritelist = document.querySelectorAll("#unfav");
       Unfavouritelist.forEach((unfav) => {
         unfav.addEventListener("click", function () {
